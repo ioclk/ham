@@ -1,13 +1,13 @@
 // no forward to ham server
 // includes
-# include server.h
-# include ham.h
+# include <server.h>
+# include <ham.h>
 // don't break the core
 
 
 
 // connection data
-int serial_rate == 115200;
+const int serial_rate == 115200;
 
 void main()
 {
